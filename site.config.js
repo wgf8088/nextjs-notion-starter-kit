@@ -1,5 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
+  // Notion 页面的 Id
   rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
 
   // if you want to restrict pages to a single notion workspace (optional)
@@ -7,8 +8,9 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
+  //博客基础信息：包含博客名称、Notion 页面的原始链接、作者名称
   name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
+  domain: 'transitivebullsh.it',    //Notion 页面的原始链接
   author: 'Travis Fischer',
 
   // open graph metadata (optional)
@@ -17,6 +19,7 @@ module.exports = {
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
+  //可联系博客作者的渠道/方式：可以填写 Twitter、GitHub、Linkedin
   twitter: 'transitive_bs',
   github: 'transitive-bullshit',
   linkedin: 'fisch2',
