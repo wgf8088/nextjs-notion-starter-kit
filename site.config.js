@@ -1,7 +1,7 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
   // Notion 页面的 Id
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  rootNotionPageId: 'b52510b327004c859977e6562baeed0b',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -9,9 +9,9 @@ module.exports = {
 
   // basic site info (required)
   //博客基础信息：包含博客名称、Notion 页面的原始链接、作者名称
-  name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',    //Notion 页面的原始链接
-  author: 'Travis Fischer',
+  name: 'supang seiko',
+  domain: 'www.ot88.com',    //Notion 页面的原始链接
+  author: 'supang seiko',
 
   // open graph metadata (optional)
   description: 'Example site description',
@@ -20,9 +20,9 @@ module.exports = {
 
   // social usernames (optional)
   //可联系博客作者的渠道/方式：可以填写 Twitter、GitHub、Linkedin
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'supang seiko',
+  github: 'supang seiko',
+  linkedin: 'supang seiko',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
